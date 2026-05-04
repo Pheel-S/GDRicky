@@ -16,11 +16,7 @@ td input[type="number"] {
 
 
 
-/* mobile */
-
-/* =========================
-   MOBILE FIX BASE
-   ========================= */
+/* mobile fix*/
 
 html {
   font-size: 16px;
@@ -41,16 +37,14 @@ body {
 }
 
 
-/* =========================
-   TOUCH FRIENDLY ELEMENTS
-   ========================= */
+/*Touchscreen fix*/
 
 button,
 input,
 select,
 textarea,
 label {
-  font-size: 16px; /* evita zoom automatico mobile */
+  font-size: 16px;  /* per evitare lo zoom automatico mobile*/
 }
 
 button {
@@ -67,9 +61,7 @@ input[type="checkbox"] {
 }
 
 
-/* =========================
-   TEXTAREA MIGLIORI SU MOBILE
-   ========================= */
+/* text area migliorate per mobile*/
 
 textarea {
   width: 100%;
@@ -78,9 +70,7 @@ textarea {
 }
 
 
-/* =========================
-   TABELLE RESPONSIVE
-   ========================= */
+/*fix tabella*/
 
 table {
   width: 100%;
@@ -95,10 +85,8 @@ th, td {
 }
 
 
-/* =========================
-   LISTE DINAMICHE (equipaggiamento,
-   imprese, abilità ecc.)
-   ========================= */
+/* liste dinamiche (equipaggiamento,
+   imprese, abilità ecc.) */
 
 .oggetto-equipaggiamento,
 .impresa,
@@ -110,9 +98,7 @@ th, td {
 }
 
 
-/* =========================
-   MOBILE ONLY
-   ========================= */
+/*Per mobile*/
 
 @media (max-width: 768px) {
 
