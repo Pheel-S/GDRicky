@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scheda Personaggio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"; charset="UTF-8">
+    <link rel="stylesheet" href="assets/stile scheda.css">
+</head>
+<body>
+    <header>
+        <div>
+            <label>Nome personaggio:
+             <input type="text" id="nome" placeholder="Nome personaggio">
+             <input type="text" id="classe-personaggio" placeholder="Classe personaggio">
+            </label>
+        </div>
+    </header>
+ <main>
+    <div>
+        <table>
+            <tr>
+                <th>attacco</th>
+                <th>difesa</th>
+                <th>movimento</th>
+                <th>punti corpo</th>
+                <th>punti mente</th>
+                <th>armatura</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="attacco" value="0" min="0">
+                    <button class="meno" data-stat="attacco">-</button>
+                    <button class="piu" data-stat="attacco">+</button>
+                </td>
+                <td>
+                    <input type="number" id="difesa" value="0" min="0">
+                    <button class="meno" data-stat="difesa">-</button>
+                    <button class="piu" data-stat="difesa">+</button>
+                </td>
+                <td>
+                    <input type="number" id="mana" value="0" min="0">
+                    <button class="meno" data-stat="mana">-</button>
+                    <button class="piu" data-stat="mana">+</button>
+                </td>
+                <td>
+                    <input type="number" id="punti corpo" value="0" min="0">
+                    <button class="meno" data-stat="punti corpo">-</button>
+                    <button class="piu" data-stat="punti corpo">+</button>
+                </td>
+                <td>
+                    <input type="number" id="vita" value="0" min="0">
+                    <button class="meno" data-stat="vita">-</button>
+                    <button class="piu" data-stat="vita">+</button>
+                </td>
+                <td>
+                    <input type="number" id="armatura" value="0" min="0">
+                    <button class="meno" data-stat="armatura">-</button>
+                    <button class="piu" data-stat="armatura">+</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="puntoGenericoContainer">
+        <h2>Punto generico</h2>
+        <div class="progressione-generico"></div>
+    </div>
+    
+    <div class="capacità-base">
+            <h2>Capacità base</h2>
+            <textarea id="capacità" rows="5" placeholder="Scrivi qui le abilità base..."></textarea>
+        </div>
+
+        <div class="capacità-speciale">
+            <h2>Capacità speciale</h2>
+            <textarea id="capacità-speciale" rows="5" placeholder="Scrivi qui le abilità speciali..."></textarea>
+        </div>
+
+        <div class="lista-equipaggiamento" id="listaEquipaggiamento">
+
+                <h2>Equipaggiamento</h2>
+                <button id="aggiungiOggetto">+ Aggiungi oggetto</button>
+        
+            <div id="contenitoreOggetti"></div>
+        </div>
+
+        
+        
+        <div class="appunti-container">
+            <h2>Appunti di Viaggio</h2>
+            <textarea id="appunti" rows="10" placeholder="Scrivi qui gli appunti del viaggio..."></textarea>
+        </div>
+        
+        <div id="listaAbilita">
+            <h2>imprese / abilità</h2>
+            <button id="aggiungiAbilita">+ aggiungi impresa</button>
+            <div id="contenitoreAbilita"></div>
+        </div>
+
+        <aside>
+            <div id="tabellaAfflizioni">
+                <h2>Afflizioni</h2>
+            <div id="contenitoreAfflizioni"></div>
+            </div>
+        </aside>
+ </main>
+ <footer>
+    <div id="ultima-modifica" style="margin-top:10px; font-style:italic;">
+        Ultimo salvataggio: <span id="data-salvataggio">mai</span>
+        <br>
+        <button id="esporta">Esporta scheda in JSON</button>
+            <input type="file" id="importaFile" accept=".json" style="display:none;">
+            <button id="importa">Importa scheda da JSON</button>
+        <button id="reset">Reset scheda</button>
+    </div>
+</footer>
+
+<script src="assets/funzioni scheda.js"></script>
+</body>
+</html>
