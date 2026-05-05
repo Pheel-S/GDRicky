@@ -1,6 +1,7 @@
 /*stile tabella*/
 table {
     border: solid 1px black;
+    width: 100% Flex;
 }
 
 th, td {
