@@ -20,8 +20,10 @@ div{
   padding: 3px;
 }
 
-.nome, .classe-personaggio{
+.nome-personaggio, .classe-personaggio{
   margin: 2%;
+  width: 50%;
+  display: row;
 }
 
 /* mobile */
