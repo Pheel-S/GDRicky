@@ -1,7 +1,7 @@
 /*stile tabella*/
 table {
     border: solid 1px black;
-    margin-top: 2%;
+    width: 100% auto;
 }
 
 th, td {
