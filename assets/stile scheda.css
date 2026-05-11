@@ -1,8 +1,4 @@
 /*stile tabella*/
-table {
-    border: solid 1px black;
-    width: 100% auto;
-}
 
 th, td {
     border: solid 1px black;
@@ -49,9 +45,7 @@ body {
 }
 
 
-/* =========================
-   TOUCH FRIENDLY ELEMENTS
-   ========================= */
+/* Elementi ottimizzati per il touch-screen */
 
 button,
 input,
@@ -75,9 +69,7 @@ input[type="checkbox"] {
 }
 
 
-/* =========================
-   TEXTAREA MIGLIORI SU MOBILE
-   ========================= */
+
 
 textarea {
   width: 100%;
@@ -86,9 +78,7 @@ textarea {
 }
 
 
-/* =========================
-   TABELLE RESPONSIVE
-   ========================= */
+/* tabella responsive */
 
 table {
   width: 100%;
@@ -96,16 +86,12 @@ table {
 }
 
 th, td {
-  padding: 6px;
   text-align: center;
   word-wrap: break-word;
 }
 
 
-/* =========================
-   LISTE DINAMICHE (equipaggiamento,
-   imprese, abilità ecc.)
-   ========================= */
+/* liste dinamiche (equipaggiamento,imprese, abilità ecc.) */
 
 .oggetto-equipaggiamento,
 .impresa,
@@ -117,9 +103,7 @@ th, td {
 }
 
 
-/* =========================
-   MOBILE ONLY
-   ========================= */
+/* mobile */
 
 @media (max-width: 768px) {
 
