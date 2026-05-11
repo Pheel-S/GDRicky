@@ -12,12 +12,12 @@ td input[type="number"] {
 }
 
 div{
-  overflow-x: 100% auto;
+  overflow-x: 100%;
   background-color: grey;
   margin-top: 3px;
   margin-bottom: 3px;
   border-radius: 5px;
-  padding: 1px;
+  padding: 3px;
 }
 
 .nome, .classe-personaggio{
