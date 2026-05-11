@@ -16,7 +16,7 @@ td input[type="number"] {
 }
 
 div{
-  overflow-x: auto;
+  overflow-x: 100% auto;
   background-color: grey;
   margin-top: 3px;
   margin-bottom: 3px;
