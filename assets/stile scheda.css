@@ -1,7 +1,8 @@
 /* stile griglia - in sostituzione della tabella */
 #contenitore-tabella-statistiche{
    display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
+   max-width: 768px;
 }
 
 .valore-tabella{
