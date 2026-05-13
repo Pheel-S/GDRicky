@@ -1,5 +1,5 @@
 #contenitore-tabella-statistiche{
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
   gap: 10px;
@@ -81,19 +81,6 @@ textarea {
   width: 100%;
   min-height: 60px;
   resize: vertical;
-}
-
-
-/* tabella responsive */
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  text-align: center;
-  word-wrap: break-word;
 }
 
 
