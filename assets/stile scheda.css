@@ -1,31 +1,36 @@
-/* stile griglia - in sostituzione della tabella */
-#contenitore-tabella-statistiche{
-   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto auto;
-  gap: 10px;
-  padding: 10px;
+/*stile tabella*/
+
+th, td {
+    border: solid 1px black;
 }
 
-.valore-tabella{
+/* Input numerici più usabili su mobile */
+td input[type="number"] {
+    
     text-align: center;
-    padding: 10px;
-    margin: 2%;
-    border-radius: 10px;
-    background-color: grey;
+    width: 90%;
 }
 
-div input[type="number"] {
-  text-align: center;
-  width: 90%;
+div{
+  overflow-x: 100%;
+  background-color: grey;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  padding: 3px;
 }
 
-.valore-tabella button{
-  width: 90%;
-  font-size: 25px;
+.nome-personaggio, .classe-personaggio{
+  margin: 2%;
 }
 
 /* mobile */
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
   padding: 8px;
@@ -73,6 +78,19 @@ textarea {
 }
 
 
+/* tabella responsive */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+
 /* liste dinamiche (equipaggiamento,imprese, abilità ecc.) */
 
 .oggetto-equipaggiamento,
@@ -87,6 +105,24 @@ textarea {
 
 /* mobile */
 
+@media (max-width: 768px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  h1, h2, h3 {
+    margin: 6px 0;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 4px;
+  }
 
   /* checkbox progressi più facili da toccare */
   .progress-container input[type="checkbox"] {
