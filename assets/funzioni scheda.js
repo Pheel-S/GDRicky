@@ -461,13 +461,13 @@ window.addEventListener("DOMContentLoaded", creaPuntoGenerico);
 
 //Tabella afflizioni
 const elencoAfflizioni = [
-    "Ferita alla testa",
-    "Ferita al petto",
-    "Braccio sinistro",
-    "Braccio destro",
-    "Gamba sinistra",
-    "Gamba destra",
-    "Stordimento",
+    "Ferita alla testa: 2-12",
+    "Ferita al petto: 3-11",
+    "Braccio sinistro: 4",
+    "Braccio destro: 10",
+    "Gamba sinistra: 5",
+    "Gamba destra: 9",
+    "Stordimento: 6-8",
     "Oggetto distrutto"
 ];
 
