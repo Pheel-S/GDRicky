@@ -1,7 +1,6 @@
 #contenitore-tabella-statistiche{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
+  grid-template-columns: 3;
 }
 
 .valore-tabella{
