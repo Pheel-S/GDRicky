@@ -25,20 +25,6 @@ div input[type="number"] {
 }
 
 /* Input numerici più usabili su mobile */
-td input[type="number"] {
-    
-    text-align: center;
-    width: 90%;
-}
-
-div{
-  overflow-x: 100%;
-  background-color: grey;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  border-radius: 5px;
-  padding: 3px;
-}
 
 .nome-personaggio, .classe-personaggio{
   margin: 2%;
