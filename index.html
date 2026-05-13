@@ -15,49 +15,49 @@
         </div>
     </header>
  <main>
-    <div>
-        <table>
-            <tr>
-                <th>attacco</th>
-                <th>difesa</th>
-                <th>movimento</th>
-                <th>punti corpo</th>
-                <th>punti mente</th>
-                <th>armatura</th>
-            </tr>
-            <tr>
-                <td>
-                    <input type="number" id="attacco" value="0" min="0">
-                    <button class="meno" data-stat="attacco">-</button>
-                    <button class="piu" data-stat="attacco">+</button>
-                </td>
-                <td>
-                    <input type="number" id="difesa" value="0" min="0">
-                    <button class="meno" data-stat="difesa">-</button>
-                    <button class="piu" data-stat="difesa">+</button>
-                </td>
-                <td>
-                    <input type="number" id="mana" value="0" min="0">
-                    <button class="meno" data-stat="mana">-</button>
-                    <button class="piu" data-stat="mana">+</button>
-                </td>
-                <td>
-                    <input type="number" id="punti corpo" value="0" min="0">
-                    <button class="meno" data-stat="punti corpo">-</button>
-                    <button class="piu" data-stat="punti corpo">+</button>
-                </td>
-                <td>
-                    <input type="number" id="vita" value="0" min="0">
-                    <button class="meno" data-stat="vita">-</button>
-                    <button class="piu" data-stat="vita">+</button>
-                </td>
-                <td>
-                    <input type="number" id="armatura" value="0" min="0">
-                    <button class="meno" data-stat="armatura">-</button>
-                    <button class="piu" data-stat="armatura">+</button>
-                </td>
-            </tr>
-        </table>
+    <div id="contenitore-tabella-statistiche">
+        <div class="valore-tabella">
+            <p>attacco</p>
+            <input type="number" id="attacco" value="0" min="0">
+            <button class="meno" data-stat="attacco">-</button>
+            <button class="piu" data-stat="attacco">+</button>
+        </div>
+
+        <div class="valore-tabella">
+            <p>difesa</p>
+            <input type="number" id="difesa" value="0" min="0">
+            <button class="meno" data-stat="difesa">-</button>
+            <button class="piu" data-stat="difesa">+</button>
+        </div>
+
+        <div class="valore-tabella">
+            <p>movimento</p>
+            <input type="number" id="movimento" value="0" min="0">
+            <button class="meno" data-stat="movimento">-</button>
+            <button class="piu" data-stat="movimento">+</button>
+        </div>
+
+        <div class="valore-tabella">
+            <p>punti mente</p>
+            <input type="number" id="mana" value="0" min="0">
+            <button class="meno" data-stat="mana">-</button>
+            <button class="piu" data-stat="mana">+</button>
+        </div>
+
+        <div class="valore-tabella">
+            <p>punti corpo</p>
+            <input type="number" id="punti corpo" value="0" min="0">
+            <button class="meno" data-stat="punti corpo">-</button>
+            <button class="piu" data-stat="punti corpo">+</button>
+        </div>
+
+        <div class="valore-tabella">
+            <p>armatura</p>
+            <input type="number" id="armatura" value="0" min="0">
+            <button class="meno" data-stat="armatura">-</button>
+            <button class="piu" data-stat="armatura">+</button>
+        </div>
+
     </div>
 
     <div id="puntoGenericoContainer">
