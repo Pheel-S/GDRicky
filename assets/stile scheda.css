@@ -1,27 +1,25 @@
-/*stile tabella*/
-
-th, td {
-    border: solid 1px black;
+/* stile griglia - in sostituzione della tabella */
+#contenitore-tabella-statistiche{
+   display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
-/* Input numerici più usabili su mobile */
-td input[type="number"] {
-    
+.valore-tabella{
     text-align: center;
-    width: 90%;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: grey;
 }
 
-div{
-  overflow-x: 100%;
-  background-color: grey;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  border-radius: 5px;
-  padding: 3px;
+div input[type="number"] {
+  text-align: center;
+  width: 90%;
 }
 
-.nome-personaggio, .classe-personaggio{
-  margin: 2%;
+.valore-tabella button{
+  width: 90%;
+  font-size: 25px;
 }
 
 /* mobile */
