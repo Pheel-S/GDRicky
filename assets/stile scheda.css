@@ -44,10 +44,16 @@ body {
   box-sizing: border-box;
 }
 
+/*stile generale*/
+div {
+   background-color: green;
+}
+
 /* Tutti gli elementi rispettano le dimensioni */
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 
 
 /* Elementi ottimizzati per il touch-screen */
