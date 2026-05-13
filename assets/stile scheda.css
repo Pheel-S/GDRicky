@@ -1,10 +1,15 @@
 #contenitore-tabella-statistiche{
-  display: grid;
-  grid-template-columns: 3;
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 10px;
 }
 
 .valore-tabella{
     text-align: center;
+    padding: 10px;
+    margin: 2%;
     border-radius: 10px;
     background-color: grey;
 }
@@ -18,7 +23,6 @@ div input[type="number"] {
   width: 90%;
   font-size: 25px;
 }
-
 /* Input numerici più usabili su mobile */
 
 .nome-personaggio, .classe-personaggio{
