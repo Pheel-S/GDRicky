@@ -11,7 +11,6 @@
     padding: 10px;
     margin: 2%;
     border-radius: 10px;
-    background-color: grey;
 }
 
 div input[type="number"] {
@@ -22,6 +21,11 @@ div input[type="number"] {
 .valore-tabella button{
   width: 90%;
   font-size: 25px;
+}
+
+/* generale */
+div{
+   background-color: grey;
 }
 
 /* mobile */
@@ -82,10 +86,6 @@ textarea {
   padding: 8px;
   border-radius: 8px;
 }
-
-
-/* mobile */
-
 
   /* checkbox progressi più facili da toccare */
   .progress-container input[type="checkbox"] {
