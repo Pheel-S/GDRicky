@@ -61,7 +61,7 @@ body, main, button, ::placeholder, :read-write{
 }
 
 body {
-  background-image: url(assets/media/sfondo–scheda.jpg);
+  background-image: url(main/assets/media/sfondo–scheda.jpg);
   background-size:contain ;
   margin: 0;
   padding: 3px;
