@@ -3,6 +3,7 @@
    display: grid;
    gap: 10px;
    padding: 10px;
+   grid-template-colums: 1fr;
 }
 
 .valore-tabella{
