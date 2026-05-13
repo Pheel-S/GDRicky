@@ -76,19 +76,6 @@ textarea {
 }
 
 
-/* tabella responsive */
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  text-align: center;
-  word-wrap: break-word;
-}
-
-
 /* liste dinamiche (equipaggiamento,imprese, abilità ecc.) */
 
 .oggetto-equipaggiamento,
